@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="./main.css" />
+		<link rel="stylesheet" href="./assets/styles/pages/frontpage/main.css" />
 		<title>Fyrre Magazine</title>
 	</head>
 	<body>
@@ -11,101 +11,109 @@
 			<header class="header">
 				<a href="/" class="logo">
 					<img
-						src="./logo.svg"
+						src="./assets/media/logo.svg"
 						alt="Fyrre Magazine Logo"
 						class="logo__img"
 						width="210"
 						height="19"
 					/>
 				</a>
-				<nav class="header__nav">
-					<ul class="header__list">
-						<li class="header__item">
-							<a href="/" class="header__link">Magazine</a>
+				<div class="header__actions">
+					<nav class="header__nav">
+						<ul class="header__list">
+							<li class="header__item">
+								<a href="/" class="header__link">Magazine</a>
+							</li>
+							<li class="header__item">
+								<a href="/" class="header__link">Authors</a>
+							</li>
+							<li class="header__item">
+								<a href="/" class="header__link">Podcast</a>
+							</li>
+						</ul>
+					</nav>
+					<div class="line"></div>
+					<ul class="socials">
+						<li class="socials__item">
+							<a
+								class="socials__link"
+								href="https://instagram.com"
+								aria-label="Instagram"
+								rel="noopener noreferrer"
+								target="_blank"
+							>
+								<svg
+									class="socials__icon"
+									width="24"
+									height="24"
+									aria-hidden="true"
+								>
+									<use
+										href="./assets/media/icons/socials.svg#instagram-icon"
+									></use>
+								</svg>
+							</a>
 						</li>
-						<li class="header__item">
-							<a href="/" class="header__link">Authors</a>
+						<li class="socials__item">
+							<a
+								class="socials__link"
+								href="https://twitter.com"
+								aria-label="Twitter"
+								rel="noopener noreferrer"
+								target="_blank"
+							>
+								<svg
+									class="socials__icon"
+									width="24"
+									height="24"
+									aria-hidden="true"
+								>
+									<use
+										href="./assets/media/icons/socials.svg#twitter-icon"
+									></use>
+								</svg>
+							</a>
 						</li>
-						<li class="header__item">
-							<a href="/" class="header__link">Podcast</a>
+						<li class="socials__item">
+							<a
+								class="socials__link"
+								href="https://youtube.com"
+								aria-label="YouTube"
+								rel="noopener noreferrer"
+								target="_blank"
+							>
+								<svg
+									class="socials__icon"
+									width="24"
+									height="24"
+									aria-hidden="true"
+								>
+									<use
+										href="./assets/media/icons/socials.svg#youtube-icon"
+									></use>
+								</svg>
+							</a>
+						</li>
+						<li class="socials__item">
+							<a
+								class="socials__link"
+								aria-label="RSS Feed"
+								href="https://rss.com/"
+								rel="noopener noreferrer"
+								target="_blank"
+							>
+								<svg
+									class="socials__icon"
+									width="24"
+									height="24"
+									aria-hidden="true"
+								>
+									<use href="./assets/media/icons/socials.svg#rss-icon"></use>
+								</svg>
+							</a>
 						</li>
 					</ul>
-				</nav>
-				<div class="line"></div>
-				<ul class="socials">
-					<li class="socials__item">
-						<a
-							class="socials__link"
-							href="https://instagram.com"
-							aria-label="Instagram"
-							rel="noopener noreferrer"
-							target="_blank"
-						>
-							<svg
-								class="socials__icon"
-								width="24"
-								height="24"
-								aria-hidden="true"
-							>
-								<use href="./icons/socials.svg#instagram-icon"></use>
-							</svg>
-						</a>
-					</li>
-					<li class="socials__item">
-						<a
-							class="socials__link"
-							href="https://twitter.com"
-							aria-label="Twitter"
-							rel="noopener noreferrer"
-							target="_blank"
-						>
-							<svg
-								class="socials__icon"
-								width="24"
-								height="24"
-								aria-hidden="true"
-							>
-								<use href="./icons/socials.svg#twitter-icon"></use>
-							</svg>
-						</a>
-					</li>
-					<li class="socials__item">
-						<a
-							class="socials__link"
-							href="https://youtube.com"
-							aria-label="YouTube"
-							rel="noopener noreferrer"
-							target="_blank"
-						>
-							<svg
-								class="socials__icon"
-								width="24"
-								height="24"
-								aria-hidden="true"
-							>
-								<use href="./icons/socials.svg#youtube-icon"></use>
-							</svg>
-						</a>
-					</li>
-					<li class="socials__item">
-						<a
-							class="socials__link"
-							aria-label="RSS Feed"
-							href="https://rss.com/"
-							rel="noopener noreferrer"
-							target="_blank"
-						>
-							<svg
-								class="socials__icon"
-								width="24"
-								height="24"
-								aria-hidden="true"
-							>
-								<use href="./icons/socials.svg#rss-icon"></use>
-							</svg>
-						</a>
-					</li>
-				</ul>
+				</div>
 			</header>
 		</div>
 	</body>
