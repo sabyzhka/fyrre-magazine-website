@@ -1,0 +1,8 @@
+/* * Core */
+@import url('/assets/styles/core/fonts.css');
+@import url('/assets/styles/core/normalize.css');
+@import url('/assets/styles/core/variables.css');
+@import url('/assets/styles/core/global.css');
+
+/* * Sections */
+@import url('./sections/header.css');
